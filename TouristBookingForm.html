@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Booking FormF</title>
+</head>
+<body>
+    <header>
+        <h1>Tour Booking Form</h1>
+        <h3>Note: * Mandatory Fields</h3>
+    </header><hr>
+    <main>
+        <section>
+            <form action="#" method="get">
+                <div>
+                    <label for="username">Full name*:</label><br>
+                    <input type="text" id="username" required>
+                </div><br>
+                <div>
+                    <label for="email">Email Address*:</label><br>
+                    <input type="email" id="email" required><br>
+                </div><br>
+                <div>
+                    <label for="dropdown">Select Tour Package*:</label><br>
+                    <select name="Place">
+                        <option value="SouthIndia">SouthIndia</option>
+                        <option value="NorthIndia">NorthIndia</option>
+                        <option value="korea">korea</option>
+                        <option value="China">China</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label for="date">Arrival Date*:</label><br>
+                    <input type="date" id="date" required>
+                </div><br>
+                <div>
+                    <label for="numberofpersons">Number Of Persons*:</label><br>
+                    <input type="text" id="numberofpersons"  required>
+                </div><br>
+                <div>
+                    <label for="avail">what would you want to avail?*:</label><br>
+                    <input type="checkbox" value="Boarding" id="boarding"><label for="boarding"> Boarding</label><br>
+                    <input type="checkbox" value="food" id="food"><label for="food"> Food</label><br>
+                    <input type="checkbox" value="sight seeing" id="sightseeing"><label for="sightseeing"> Sight seeing</label><br>
+                </div><br>
+                <div>
+                    <label for="terms">Terms and Conditions*:</label><br>
+                    <input type="radio" name="terms" value="iagree" id="iagree"><label for="iagree">I agree</label>
+                    <input type="radio" name="terms" value="i disagree" id="i disagree"><label for="idisagree">I disagree</label>
+                </div><br>
+                <div>
+                    <input type="button" value="BOOK NOW">
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
