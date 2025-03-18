@@ -1,0 +1,138 @@
+<!--**********************************************************************************************************************************************
+*        Module:                     : Amazon UI Clone                                                                                            *
+*        Description:                : Amazon-like user interface with navigation, search,product listings, and footer links                      *
+*        Usage:                      : Displays a shopping experience with product categories, deals, and user account features                   *
+*
+***************************************************************************************************************************************************
+*                            Maintenance Log 
+*    DATE      : 13-03-2025                                                                                                                        *
+*    DEVELOPER : Sanjith Kumaran P.                                                                                                                         *
+
+
+************************************************************************************************************************************************ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header id="top">
+        <nav class="navbar">
+            <img src="./assets/amozonlogo.jpeg" alt="amazon-logo">
+            <div id="userLocation">
+                <i class="fa-solid fa-location-dot"></i> 
+                <div id="Location">
+                    <p>Deliver</p>
+                    <p>chennai</p>
+                </div>
+            </div>
+            <div id="search">
+                <select id="ourProduct">
+                    <option value="all">ALL</option>
+                    <option value="laptops">LAPTOPS</option>
+                    <option value="mobiles">MOBILES</option>
+                </select>
+                <input type="text" placeholder="search amazon" id="searchInput"/>
+                <div id="search-Icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <p>sign In</p>
+            <p>orders</p>
+            <i class="fa-solid fa-cart-shopping" style="color:#fff;" id="cart"></i>
+        </nav>
+    </header>
+    <nav id="secondary-nav">
+        <ul id="menu">
+            <li><i class="fa-solid fa-bars" style="color: #fff;"></i></li>
+            <li> <a href="#">All</a></li> 
+            <li><a href="#">Today's Deals</a></li>
+            <li><a href="#">customer service</a></li>
+            <li><a href="#">registry</a></li>
+            <li><a href="">Gift cards</a></li>
+            <li><a href="#">sell</a></li>
+            <li class="shop-deals"><a href="#">shop deals in Electronics</a></li>
+        </ul>
+    </nav>
+    <div>
+        <img src="./assets/banner.jpg" alt="banner" id="primeDay">
+    </div>
+    
+    <div id="shoppingItem">
+        <div class="product">
+            <p>shop Trendy T-shirt</p>
+            <img src="./assets/tshirt.png" alt="img1">
+            <a href="#"> shop now</a>
+        </div>
+        <div class="product">
+            <p>shop Durable bikes</p>
+            <img src="./assets/Bike.webp" alt="img1">
+            <a href="#"> shop now</a>
+        </div>
+        <div class="product">
+            <p>shop The clothes</p>
+            <img src="./assets/clothes.png" alt="img1">
+            <a href="#"> shop now</a>
+        </div>
+        <div class="product">
+            <p>shop productive Helmet</p>
+            <img src="./assets/helmet.png" alt="img1">
+            <a href="#"> shop now</a>
+        </div>
+    </div>
+    <div id="movingForward">
+        <a href="#top">Back To Top</a>
+    </div>
+    <footer>
+        <div class="footerLinks">
+            <h3>Get to know us </h3>
+            <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">careers</a></li>
+            <li><a href="#">press release</a></li>
+            <li><a href="#">amazon science</a></li>
+            </ul>
+        </div>
+        <div class="footerLinks">
+            <h3>Connect With Us</h3>
+            <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+         <div class="footerLinks">
+                <h3>Make Money With us </h3>
+                <ul>
+                <li><a href="#">Sell on Amazon</a></li>
+                <li><a href="#">Sell under Amazon accelarator</a></li>
+                <li><a href="#">protect and Build Your Brand</a></li>
+                <li><a href="#">Amazon Global settings</a></li>
+                <li><a href="#">Become an Affiliate</a></li>
+                <li><a href="#">fullfilment by Amazon</a></li>
+                <li><a href="#">Advertise your products</a></li>
+                <li><a href="#">pay on Merchants</a></li>
+               </ul>
+        </div>
+            <div class="footerLinks">
+               <h3> Let us Help You</h3> 
+               <ul>
+                <li><a href="#">Your Account</a></li>
+                <li><a href="#">Return Centre</a></li>
+                <li><a href="#">100% purchase protection</a></li>
+                <li><a href="#">Amazon App Download</a></li>
+                <li><a href="#">Help</a></li>
+               </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
